@@ -1,0 +1,37 @@
+2019-10-17 10:04:04,095 INFO com.datageeks.EmpAppApplication [restartedMain] Starting EmpAppApplication on LAPTOP-KFMCC94N with PID 13836 (C:\DataGeeks\LOG4J\HBEmpApp-WithLog4j\target\classes started by venka in C:\DataGeeks\LOG4J\HBEmpApp-WithLog4j)
+2019-10-17 10:04:04,096 DEBUG com.datageeks.EmpAppApplication [restartedMain] Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-10-17 10:04:04,096 INFO com.datageeks.EmpAppApplication [restartedMain] No active profile set, falling back to default profiles: default
+2019-10-17 10:04:04,619 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-10-17 10:04:04,625 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 5ms. Found 0 repository interfaces.
+2019-10-17 10:04:04,716 INFO org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [restartedMain] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$229f2aa6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-10-17 10:04:05,192 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 8888 (http)
+2019-10-17 10:04:05,207 INFO org.apache.catalina.core.StandardService [restartedMain] Starting service [Tomcat]
+2019-10-17 10:04:05,208 INFO org.apache.catalina.core.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/9.0.26]
+2019-10-17 10:04:05,528 INFO org.apache.jasper.servlet.TldScanner [restartedMain] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-10-17 10:04:05,532 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2019-10-17 10:04:05,534 INFO org.springframework.web.context.ContextLoader [restartedMain] Root WebApplicationContext: initialization completed in 1434 ms
+2019-10-17 10:04:05,650 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Starting...
+2019-10-17 10:04:05,744 INFO com.zaxxer.hikari.pool.PoolBase [restartedMain] HikariPool-5 - Driver does not support get/set network timeout for connections. (oracle.jdbc.driver.T4CConnection.getNetworkTimeout()I)
+2019-10-17 10:04:05,746 INFO com.zaxxer.hikari.HikariDataSource [restartedMain] HikariPool-5 - Start completed.
+2019-10-17 10:04:05,765 INFO org.hibernate.jpa.internal.util.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2019-10-17 10:04:05,781 INFO org.hibernate.dialect.Dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.Oracle10gDialect
+2019-10-17 10:04:05,844 INFO org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2019-10-17 10:04:06,276 INFO org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor [restartedMain] Initializing ExecutorService 'applicationTaskExecutor'
+2019-10-17 10:04:06,284 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2019-10-17 10:04:06,420 INFO org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2019-10-17 10:04:06,507 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [restartedMain] Tomcat started on port(s): 8888 (http) with context path ''
+2019-10-17 10:04:06,520 INFO com.datageeks.EmpAppApplication [restartedMain] Started EmpAppApplication in 2.483 seconds (JVM running for 440.041)
+2019-10-17 10:04:06,525 INFO org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener [restartedMain] Condition evaluation unchanged
+2019-10-17 10:04:06,526 DEBUG com.datageeks.EmpAppApplication [restartedMain] EmpAppApplication main(...) completed
+2019-10-17 10:04:43,548 INFO org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [http-nio-8888-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-10-17 10:04:43,549 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Initializing Servlet 'dispatcherServlet'
+2019-10-17 10:04:43,555 INFO org.springframework.web.servlet.DispatcherServlet [http-nio-8888-exec-1] Completed initialization in 5 ms
+2019-10-17 10:04:43,557 INFO com.datageeks.controller.EmployeeController [http-nio-8888-exec-1]  EmployeeController => getAll(...) method execution started
+2019-10-17 10:04:43,567 INFO com.datageeks.service.EmployeeService [http-nio-8888-exec-1]  EmployeeService => getAll(...) method execution started
+2019-10-17 10:04:43,575 DEBUG com.datageeks.dao.EmployeeDAO [http-nio-8888-exec-1]  EmployeeDAO => getAll(...) method execution started
+2019-10-17 10:04:43,576 INFO org.hibernate.hql.internal.QueryTranslatorFactoryInitiator [http-nio-8888-exec-1] HHH000397: Using ASTQueryTranslatorFactory
+2019-10-17 10:04:43,582 DEBUG com.datageeks.dao.EmployeeDAO [http-nio-8888-exec-1]  EmployeeDAO => getAll(...) method execution complted empList = [EmployeeBean [employeeId=111, employeeName=Srinu, employeeSal=15000.0], EmployeeBean [employeeId=777, employeeName=Arvind4, employeeSal=15000.0]]
+2019-10-17 10:04:43,582 INFO com.datageeks.service.EmployeeService [http-nio-8888-exec-1]  EmployeeService => getAll(...) method execution completed
+2019-10-17 10:04:43,582 INFO com.datageeks.controller.EmployeeController [http-nio-8888-exec-1]  EmployeeController => getAll(...) method execution completed
